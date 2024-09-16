@@ -1,4 +1,4 @@
-# Using the Scanner Control in Power Apps (Canvas Apps) to Extract Barcode Numbers
+# Using the scanner control in Canvas Apps!
 
 In this exercise, you will learn how to use the **Scanner Control** in Power Apps to scan barcodes and extract barcode numbers. The scanner control allows you to scan different types of barcodes and use the extracted barcode data in your app.
 
