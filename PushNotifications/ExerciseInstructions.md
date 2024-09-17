@@ -43,14 +43,14 @@ Before you start, ensure you have the following:
 ### 1. Open Power Apps Studio
    - Go to [Power Apps Studio](https://make.powerapps.com) and sign in.
    - Select **Apps** from the left navigation pane.
-   - Create a new **Canvas App** with the layout of your choice (either **Tablet** or **Phone**).
+   - Create a new **Canvas App**.
 
 ### 2. Connect Your App to the SharePoint List
    - In the app editor, go to the **Data** pane on the left.
    - Click **Add Data** and select **SharePoint**.
    - Choose the **SharePoint list** you created earlier (e.g., **Tasks**, **Orders**, **Contacts**).
 
-### 3. Add a Form to Submit New Items to the SharePoint List
+### 3. Add a Form to Submit New Items to the SharePoint List (optional - you can add records directly to the list if you want to skip this step :) )
    - **Insert an Edit Form**:
      - Go to **Insert** > **Forms** > **Edit Form** to add a form to the screen.
      - Set the **DataSource** property of the form to the SharePoint list you connected:
@@ -105,12 +105,12 @@ Before you start, ensure you have the following:
 
 
 ### 5. Configure the Push Notification
-   - Set the **Notification Title** and **Notification Body** to provide relevant information about the newly added item.
-
-   Example:
-   - **Notification Title**: `"New Task Added!"`
-   - **Notification Body**: `"A new task, titled '" & Title & "' has been added to the task list."`
-   
+- Set the **Mobile App** to **Power Apps**,
+- Set the **Your App** to the app that will trigger notifications,
+- Set the **Recipients Item - 1** to **Created by Email** 
+   - Set the **Message** to whatever message you'd like to display in the push notification eg. **New form submitted**
+   - Set the **Open App** to **No**
+   - 
    Use **dynamic content** from the SharePoint list (like `Title`, `Description`, etc.) in the notification body.
 
 ### 6. Send the Notification to Power Apps Users
@@ -124,11 +124,11 @@ Before you start, ensure you have the following:
 
 ## Step 4: Test Push Notifications
 
-### 1. Open the App on Your Mobile Device
+### 1. Open the app on your Mobile Device
    - Open the **Power Apps** mobile app on your device.
    - Sign in with the same account you used in Power Apps Studio.
 
-### 2. Add a New Item Using the Power Apps Form
+### 2. Add a new item using the Power Apps Form
    - Use the form in the Power Apps app to submit a new item to the SharePoint list (e.g., create a new task or order).
 
 ### 3. Receive the Push Notification
