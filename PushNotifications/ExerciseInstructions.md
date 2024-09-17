@@ -101,8 +101,7 @@ Before you start, ensure you have the following:
 ### 4. Add an Action to Send a Push Notification
    - After configuring the trigger, click **New Step**.
    - Search for **Power Apps Notification** and select the **Send push notification (V2)** action.
-
-    ![image](https://github.com/user-attachments/assets/453dfcdf-9b0f-452a-ad4c-d092f920960c)
+![Alt text](https://github.com/user-attachments/assets/453dfcdf-9b0f-452a-ad4c-d092f920960c)
 
 
 ### 5. Configure the Push Notification
