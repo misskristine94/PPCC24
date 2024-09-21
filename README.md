@@ -1,6 +1,8 @@
 # PPCC24
 Exercises for PPCC24!
 
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTE2OTBkOGMtZTNlMy00M2VjLTlhMDQtNjgzNjJhNDE4NTdh%40thread.v2/0?context=%7b%22Tid%22%3a%225b973f99-77df-4beb-b27d-aa0c70b8482c%22%2c%22Oid%22%3a%2214417c90-0a8f-47fb-80f7-7085586f9dfb%22%7d
+
 Password: X=po66gD=J;3V4t8%+   (same for all accounts)
 
 
